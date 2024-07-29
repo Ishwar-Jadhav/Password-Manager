@@ -42,6 +42,10 @@ GET /: Fetch all passwords.
 POST /save: Save a new password by sending a JSON body, e.g., {"password": "your_password_here"}.
 DELETE /delete: Delete a password by sending a JSON body with the ID, e.g., {"id": "password_id_here"}.
 
+![Screenshot 2024-07-29 at 19 39 34](https://github.com/user-attachments/assets/1321f09e-5db2-47fe-bb86-c68c7a9e3329)
+a6af92a093e7)
+
+
 Future Enhancements
 
 User Authentication: Implement user authentication and authorization to secure API endpoints.
