@@ -12,13 +12,17 @@ Logging: Middleware to log incoming requests for easier debugging and monitoring
 Endpoints
 
 GET /: Retrieve all stored passwords.
+<img width="1431" alt="new record" src="https://github.com/user-attachments/assets/52ab2902-2a67-4d5d-9635-1b5276387076">
 POST /save: Save a new password to the database.
+![list of recods](https://github.com/user-attachments/assets/d66458c6-f90a-4c30-a199-5eb6fe94673e)
 DELETE /delete: Delete a password from the database by its ID.
+![Delete](https://github.com/user-attachments/assets/48145ff2-590e-4b21-9967-a6af92a093e7)
 Technologies Used
 
 Node.js: JavaScript runtime for building the backend application.
 Express.js: Web framework for handling HTTP requests and routing.
 MongoDB: NoSQL database for storing password data.
+![Mongoimg](https://github.com/user-attachments/assets/19fda5df-1fef-40d4-821e-ccbfb58d3c4e)
 dotenv: Module for loading environment variables from a .env file.
 body-parser: Middleware for parsing JSON request bodies.
 async-hooks: Node.js module for handling asynchronous operations.
